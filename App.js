@@ -54,14 +54,14 @@ const App = () => {
     // User finished the introduction. Show real app through
     // navigation or simply by controlling state
     setShowRealApp(true);
-    console.log("Done--->")
+    // console.log("Done--->")
   };
 
   useEffect(() => {
     // If showRealApp is true, you may want to navigate to another screen or perform other actions.
     // For now, this will log a message to the console.
     if (showRealApp) {
-      console.log('Navigate to the real app');
+      // console.log('Navigate to the real app');
     }
   }, [showRealApp]);
 
